@@ -42,7 +42,7 @@ neoallunity/
 ## 🚀 Quick Start
 
 ### Complete System Setup
-\`\`\`bash
+```bash
 # Clone the complete system with all components
 git clone --recursive https://github.com/neoallunity/integral-philosophy.git
 cd integral-philosophy
@@ -52,11 +52,11 @@ cd integral-philosophy
 
 # Start full development environment
 ./start-full.sh
-\`\`\`
+```
 
 ## 📄 License
 
-All NeoAllUnity projects are licensed under **MIT License** for maximum compatibility and reuse.
+Code in `integral-philosophy`, `allunity-wagtail` and `Magazine` is MIT-licensed. The `allunity-*` media mirrors are read-only until content rights are confirmed; their licence is not yet established.
 
 ---
 
