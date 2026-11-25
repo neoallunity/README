@@ -8,25 +8,22 @@ Empowering academic institutions, researchers, and content creators with elegant
 
 ## 🏗️ Repository Structure
 
+The eight former `integral-philosophy-*` repositories were consolidated into one canonical monorepo and are archived read-only. Current structure:
+
 ```text
-NeoAllUnity/
-├── 🌟 integral-philosophy/         # Main coordination project
-├── 🧠 integral-philosophy-core/     # Core content processing engine
-├── 🌐 integral-philosophy-web/      # Modern web interface & API
-├── 🛠️ integral-philosophy-cli/     # Command-line interface tools
-├── 📚 integral-philosophy-docs/    # Comprehensive documentation system
-├── 📚 integral-philosophy-content/ # Sample academic content & datasets
-├── ⚙️ integral-philosophy-config/ # Configuration management
-├── 🚀 integral-philosophy-deploy/  # Infrastructure & deployment
-└── 🧪 integral-philosophy-tests/  # Comprehensive testing suite
+neoallunity/
+├── integral-philosophy/     # CANON: modules/{cli,config,content,core,deploy,docs,tests,web}
+├── allunity-wagtail/        # CMS rebuild of AllUnity.ru
+├── Magazine/                # historical publishing snapshot
+├── allunity-{knigi,zhurnaly,diskussii}/  # media mirrors, rights pending
+└── .github/, README/        # organization metadata
 ```
 
 ## 📦 Quick Links
 
-- **Main Project**: [integral-philosophy](https://github.com/neoallunity/integral-philosophy)
-- **Core Engine**: [integral-philosophy-core](https://github.com/neoallunity/integral-philosophy-core)
-- **Web Components**: [integral-philosophy-web](https://github.com/neoallunity/integral-philosophy-web)
-- **CLI Tools**: [integral-philosophy-cli](https://github.com/neoallunity/integral-philosophy-cli)
+- **Canonical code**: [integral-philosophy](https://github.com/neoallunity/integral-philosophy) — use `modules/*`, not the archived one-repository-per-module projects.
+- **CMS**: [allunity-wagtail](https://github.com/neoallunity/allunity-wagtail)
+- **Media mirrors**: read-only until content rights are confirmed.
 
 ## 🎯 Core Philosophy
 
